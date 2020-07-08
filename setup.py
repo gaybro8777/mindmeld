@@ -8,7 +8,7 @@ with open('README.md') as readme_file:
     readme = readme_file.read()
 
 requirements = [
-    'bleach==1.5.0',  # tensorflow -> tensorboard -> bleach, prevents conflicts with jupyter
+    'bleach==3.1.4',  # tensorflow -> tensorboard -> bleach, prevents conflicts with jupyter
     'Click~=6.0',
     'click-log==0.1.8',  # check WB3-191
     'elasticsearch5~=5.5',
